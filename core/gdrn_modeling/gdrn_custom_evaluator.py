@@ -28,7 +28,7 @@ import cv2
 from matplotlib.pyplot import sca
 import mmcv
 import numpy as np
-from numpy.lib.npyio import save
+# from numpy.lib.npyio import save
 import torch
 from detectron2.data import DatasetCatalog, MetadataCatalog
 from detectron2.evaluation import DatasetEvaluator, inference_context

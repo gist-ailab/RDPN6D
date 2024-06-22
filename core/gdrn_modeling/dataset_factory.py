@@ -5,7 +5,8 @@ import os
 import os.path as osp
 import mmcv
 from detectron2.data import DatasetCatalog, MetadataCatalog
-from .datasets import lm_syn_imgn, lm_dataset_d2, lm_pbr, lm_blender, ycbv_pbr, ycbv_d2, ycbv_bop_test, delta_train, mp6d, itodd_train_pbr, tudl_train_pbr,  tudl_train_real, tless_train_pbr, hb_train_pbr, icbin_train_pbr
+from .datasets import lm_syn_imgn, lm_dataset_d2, lm_pbr, lm_blender, ycbv_pbr, ycbv_d2, ycbv_bop_test, mp6d, itodd_train_pbr, tudl_train_pbr,  tudl_train_real, tless_train_pbr, hb_train_pbr, icbin_train_pbr
+# from .datasets import lm_syn_imgn, lm_dataset_d2, lm_pbr, lm_blender, ycbv_pbr, ycbv_d2, ycbv_bop_test, delta_train, mp6d, itodd_train_pbr, tudl_train_pbr,  tudl_train_real, tless_train_pbr, hb_train_pbr, icbin_train_pbr
 
 
 cur_dir = osp.dirname(osp.abspath(__file__))
